@@ -1,0 +1,28 @@
+{
+    "name": "radioactivehamster/dashify-keys",
+    "description": "Convert underscores in an array's properties to hyphens.",
+    "type": "library",
+    "require": {
+        "php": ">=7",
+        "tightenco/collect": "^5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Benner",
+            "email": "james.benner@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RadHam\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpspec/phpspec": "^3.4"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpspec run"
+    }
+}
