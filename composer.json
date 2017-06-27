@@ -20,9 +20,11 @@
     },
     "minimum-stability": "stable",
     "require-dev": {
-        "phpspec/phpspec": "^3.4"
+        "phpspec/phpspec": "^3.4",
+        "friendsofphp/php-cs-fixer": "^2.3"
     },
     "scripts": {
+        "fix": "vendor/bin/php-cs-fixer fix",
         "test": "vendor/bin/phpspec run"
     }
 }

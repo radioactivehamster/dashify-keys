@@ -10,7 +10,8 @@ class DashifyKeys
      * @param string $property
      * @return string
      */
-    private static function dashify(string $property): string {
+    private static function dashify(string $property): string
+    {
         return str_replace('_', '-', $property);
     }
 
